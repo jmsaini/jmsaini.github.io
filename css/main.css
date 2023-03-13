@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  position: relative;
+}
+body{
+  background: linear-gradient(80deg, rgb(251, 212, 194), rgb(227, 165, 140));
+  height: 100%;
+  padding-bottom: 150px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.card-body{
+  margin-top: 9px;
+  background-color: rgb(251, 212, 194);
+}
+.card{
+  background-color: rgb(251, 212, 194);
+  margin-top: 29px;
+}
+.container-sm{
+  padding-top: 150px;
+  width: 59%;
+}
+.picture{
+  height: 79px;
+  width: 79px;
+  border-radius: 50%;
+}
+.bi{
+  font-size: 31px;
+  color: #202020;
+  display: inline;
+  margin: 20px;
+  text-align: center;
+}
+.btn, .badge, .btn:hover, .btn:active, .btn:focus {
+  margin-right: 9px;
+  margin-top: 10px;
+  color: rgb(251, 212, 194) !important; 
+}
+p{
+  font-size: 1.1em;
+  color: #202020;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  line-height: 25px;
+}
+h1{
+  font-size: 2.0em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color: #202020;
+  font-weight: bold;
+}
+h2{
+  font-size: 1.3em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color: #202020;
+  font-weight: normal;
+  line-height: 29px;
+}
+.collapsing{
+  transition-delay: 0.15s;
+}
+@media screen and (max-width: 900px){
+  .container-sm{
+    width: 90%;
+  }
+}
